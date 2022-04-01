@@ -49,5 +49,6 @@ sudo chmod -R 775 /opt/sonarqube/
 # start sonarQube server
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start 
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
+sudo ln -s  /opt/sonarqube/bin/linux-x86-64/sonar.sh start
 ```
 
