@@ -34,3 +34,15 @@ sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
 sudo chmod 777 -R /opt/tomcat9
 starttomcat
 ```
+
+vi /opt/tomcat10/webapps/manager/META-INF/context.xml 
+# add comment
+
+vi /opt/tomcat9/conf/tomcat-users.xml
+#add user credentials for tomcat logon
+
+<user username="landmark" password="admin123" roles="manager-gui,admin-gui,manager-script"/>
+<user username="landmarktech" password="admin123" roles="manager-gui,admin-gui"/>
+
+
+
