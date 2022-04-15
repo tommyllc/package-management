@@ -51,4 +51,17 @@ sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
 sudo ln -s  /opt/sonarqube/bin/linux-x86-64/sonar.sh start
 ```
+How to start Sonar
+
+Sudo hostname sonar
+Sudo su – sonar
+Cd /opt
+Ls
+Cd SonarQube
+Ls
+Cd bin
+Ls
+Cd Linux 64.84
+Ls
+Sh sonar.sh start
 
